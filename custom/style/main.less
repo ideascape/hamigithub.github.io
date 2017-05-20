@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+    *{
+      padding: 0;
+      margin: 0;
+      color: @white;
+    }
+    body{
+      font-size: 62.5%;
+      height: 2000px;
+      background: rgba(234, 154, 154, 0.51);
+    }
+    @shadow: 0px 0px 5px #fff;//定义wrap阴影
+    @white:#fff;//定义color白色
+    @bgblack: rgba(0,0,0,0.5);//定义透明黑色背景
+/*-----------------------------------------------背景开始-------------------------------------------------------------*/
+    .bgwrap{
+     position: fixed;
+      top:0;
+    }
+
+/*-----------------------------------------------面包屑导航开始-------------------------------------------------------*/
+    .nav{
+      font-size: 2rem;
+      position: fixed;
+      top:0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+
+
+      .nav-ul{
+        background:@bgblack;
+        box-shadow: @shadow;
+
+        a,.active{
+          color: @white;
+        }
+      }
+    }
+
+/*-----------------------------------------------巨幕开始-------------------------------------------------------------*/
+    .bigscreen{
+      margin-top: 4rem;
+
+      .jumbotron-wrap{
+        background: @bgblack;
+        box-shadow: @shadow;
+
+        .loli{
+          box-shadow:@shadow;
+        }
+      }
+    }
+
+/*-----------------------------------------------媒体开始-------------------------------------------------------------*/
+    .thumbnail-box{
+      font-size: 1.5rem;
+
+      .thumbnail-wrap{
+        background-color: @bgblack;
+
+        .caption{
+          color: @white;
+        }
+      }
+
+      .media-box{
+        .thumbnail-wrap;//使用此类的CSS
+        box-shadow: @shadow;
+
+        img{
+          margin: 1rem;
+        }
+      }
+    }
+
+/*-----------------------------------------------轮播开始-------------------------------------------------------------*/
+    .bgm-wrap{
+      margin: 5rem 0;
+    }
+
+
+/*-----------------------------------------------文本开始-------------------------------------------------------------*/
+    .text-wrap{
+      h2{
+        background: @bgblack;
+        box-shadow: @shadow;
+        padding: 2rem;
+      }
+
+      p{
+        font-size: 3rem;
+        padding: 1rem;
+        background: @bgblack;
+        box-shadow: @shadow;
+      }
+
+    }
+
+
+
