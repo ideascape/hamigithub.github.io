@@ -18,10 +18,6 @@ a {
   text-decoration: none;
 }
 
-.router-link-active {
-  text-decoration: none;
-}
-
 .clearfix:after {
   content: " ";
   display: block;
