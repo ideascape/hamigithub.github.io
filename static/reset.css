@@ -19,7 +19,7 @@ a {
 }
 
 th, td {
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 .clearfix:after {
@@ -126,8 +126,7 @@ th, td {
 }
 
 .titleBtn {
-  width: 220px;
-  padding: 5px;
+  padding: 5px 10px;
   text-align: center;
   display: inline-block;
   border-radius: 3px;
@@ -139,4 +138,14 @@ th, td {
 
 .title_p {
   font-size: 30px;
+}
+
+@media screen and (max-width: 996px) {
+  .componentTitle {
+    font-size: 24px;
+  }
+
+  .title_p {
+    font-size: 18px;
+  }
 }
