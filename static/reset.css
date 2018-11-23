@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "HELVETICANEUELTPRO-THEX", "微软雅黑", Arial, Helvetica, sans-serif;
+  font-family:  Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
   box-sizing: border-box;
 }
 
@@ -16,6 +16,10 @@ ul, ol, li {
 
 a {
   text-decoration: none;
+}
+
+th, td {
+  padding: 10px;
 }
 
 .clearfix:after {
@@ -113,4 +117,26 @@ a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+/*组件标题*/
+.componentTitle {
+  font-size: 36px;
+  margin: 80px 0;
+}
+
+.titleBtn {
+  width: 220px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.titleBtnInside {
+  color: #fff;
+}
+
+.title_p {
+  font-size: 30px;
 }
