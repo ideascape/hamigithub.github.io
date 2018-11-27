@@ -16,6 +16,7 @@ ul, ol, li {
 
 a {
   text-decoration: none;
+  color: #0366d6;
 }
 
 th, td {
@@ -119,6 +120,15 @@ th, td {
   box-sizing: border-box;
 }
 
+/*公用样式*/
+.text-gray {
+  color: #586069;
+}
+
+.padding-10{
+  padding:10px 0;
+}
+
 /*组件标题*/
 .componentTitle {
   font-size: 36px;
@@ -149,3 +159,4 @@ th, td {
     font-size: 18px;
   }
 }
+
