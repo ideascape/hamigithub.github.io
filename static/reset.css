@@ -125,8 +125,24 @@ th, td {
   color: #586069;
 }
 
-.padding-10{
-  padding:10px 0;
+.padding-10 {
+  padding: 10px 0;
+}
+
+.padding-20 {
+  padding: 20px 0;
+}
+
+.padding-top15{
+  padding-top: 15px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.pointer-hand {
+  cursor: hand;
 }
 
 /*组件标题*/
