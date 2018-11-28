@@ -142,7 +142,7 @@ th, td {
 }
 
 .pointer-hand {
-  cursor: hand;
+  cursor: pointer;
 }
 
 /*组件标题*/
