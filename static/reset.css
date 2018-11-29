@@ -88,7 +88,7 @@ th, td {
 
 /*解决子元素float后撑不开父元素的问题，CSS3清除浮动大法*/
 /*仿BS column*/
-.col-md-3, .col-md-4, .col-md-6, .col-xs-12 {
+.col-md-3, .col-md-4, .col-md-6, .col-xs-12, .col-md-8 {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
@@ -112,6 +112,10 @@ th, td {
   .col-md-3 {
     width: 25%;
   }
+
+  .col-md-8 {
+    width: 75%;
+  }
 }
 
 :after, :before {
@@ -125,6 +129,10 @@ th, td {
   color: #586069;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .padding-10 {
   padding: 10px 0;
 }
@@ -133,7 +141,11 @@ th, td {
   padding: 20px 0;
 }
 
-.padding-top15{
+.padding-50 {
+  padding: 50px 0;
+}
+
+.padding-top15 {
   padding-top: 15px;
 }
 
@@ -176,3 +188,39 @@ th, td {
   }
 }
 
+/*简历样式*/
+.bioMain {
+  margin-top: 50px;
+}
+
+.bioMain P {
+  text-indent: 18px;
+}
+
+.bioImg {
+  padding: 10px;
+  border-right: #b2bac3 solid 1px;
+}
+
+@media screen and (max-width: 996px) {
+  .bioImg {
+    border: none;
+  }
+}
+
+.bioClick {
+  color: #fff;
+  font-size: 18px;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  float: right;
+  border-radius: 5px;
+  background-image: linear-gradient(90deg, #b64816, #a62cb6);
+}
+
+.bioClick:active {
+  background-image: linear-gradient(90deg, #659cb6, #a62cb6);
+}
