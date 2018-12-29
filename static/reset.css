@@ -116,6 +116,11 @@ th, td {
   .col-md-8 {
     width: 75%;
   }
+
+  .margin-l-top40 {
+    margin-top: 40px;
+  }
+
 }
 
 :after, :before {
@@ -149,6 +154,10 @@ th, td {
   padding-top: 15px;
 }
 
+.padding-top20 {
+  padding-top: 20px;
+}
+
 .font-12 {
   font-size: 12px;
 }
@@ -179,6 +188,7 @@ th, td {
 }
 
 @media screen and (max-width: 996px) {
+
   .componentTitle {
     font-size: 24px;
   }
