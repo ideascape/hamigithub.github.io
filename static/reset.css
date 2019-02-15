@@ -134,6 +134,10 @@ th, td {
   color: #586069;
 }
 
+.text-black {
+  color: #000;
+}
+
 .text-center {
   text-align: center;
 }
@@ -158,8 +162,32 @@ th, td {
   padding-top: 20px;
 }
 
+.padding-bottom10 {
+  padding-bottom: 10px;
+}
+
+.padding-bottom20 {
+  padding-bottom: 20px;
+}
+
+.lineHeight {
+  line-height: 30px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
 .font-12 {
   font-size: 12px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-white {
+  color: #fff;
 }
 
 .pointer-hand {
