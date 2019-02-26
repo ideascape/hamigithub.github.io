@@ -162,6 +162,10 @@ th, td {
   padding-top: 20px;
 }
 
+.padding-top50 {
+  padding-top: 50px;
+}
+
 .padding-bottom10 {
   padding-bottom: 10px;
 }
@@ -180,6 +184,10 @@ th, td {
 
 .font-12 {
   font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
 }
 
 .font-24 {
