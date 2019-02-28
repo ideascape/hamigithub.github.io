@@ -202,6 +202,10 @@ th, td {
   cursor: pointer;
 }
 
+.imgWidth {
+  width: 80%;
+}
+
 /*组件标题*/
 .componentTitle {
   font-size: 36px;
