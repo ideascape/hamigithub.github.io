@@ -142,6 +142,8 @@ th, td {
   text-align: center;
 }
 
+
+
 .textIndent {
   text-indent: 20px;
 }
@@ -184,6 +186,10 @@ th, td {
 
 .font-bold {
   font-weight: bold;
+}
+
+.font-italic{
+  font-style: italic;
 }
 
 .font-12 {
