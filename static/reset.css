@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family:  Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI, Oxygen, Ubuntu, Cantarell, Open Sans, sans-serif;
   box-sizing: border-box;
 }
 
@@ -10,7 +10,9 @@ img {
   vertical-align: middle;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
   list-style: none;
 }
 
@@ -19,7 +21,8 @@ a {
   color: #0366d6;
 }
 
-th, td {
+th,
+td {
   padding: 5px 10px;
 }
 
@@ -76,19 +79,27 @@ th, td {
   margin-right: -15px;
 }
 
-.row:before, .row:after, .container:before, .container:after {
+.row:before,
+.row:after,
+.container:before,
+.container:after {
   display: table;
   content: " ";
 }
 
 /*解决子元素float后撑不开父元素的问题,CSS3清除浮动大法*/
-.row:after, .container:after {
+.row:after,
+.container:after {
   clear: both;
 }
 
 /*解决子元素float后撑不开父元素的问题，CSS3清除浮动大法*/
 /*仿BS column*/
-.col-md-3, .col-md-4, .col-md-6, .col-xs-12, .col-md-8 {
+.col-md-3,
+.col-md-4,
+.col-md-6,
+.col-xs-12,
+.col-md-8 {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
@@ -123,7 +134,8 @@ th, td {
 
 }
 
-:after, :before {
+:after,
+:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -188,7 +200,7 @@ th, td {
   font-weight: bold;
 }
 
-.font-italic{
+.font-italic {
   font-style: italic;
 }
 
@@ -210,6 +222,10 @@ th, td {
 
 .font-white {
   color: #fff;
+}
+
+.font-red {
+  color: red
 }
 
 .pointer-hand {
