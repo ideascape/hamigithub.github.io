@@ -192,6 +192,10 @@ td {
   padding-bottom: 20px;
 }
 
+.margin-bottom50 {
+  margin-bottom: 50px;
+}
+
 .lineHeight {
   line-height: 30px;
 }
