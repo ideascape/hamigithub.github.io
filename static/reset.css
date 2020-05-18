@@ -255,6 +255,10 @@ td {
   width: 80%;
 }
 
+.inlineBlock{
+  display: inline-block;
+}
+
 /*组件标题*/
 .componentTitle {
   font-size: 36px;
