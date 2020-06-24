@@ -23,7 +23,7 @@ a {
 
 th,
 td {
-  padding: 5px 10px;
+  padding: 2px 4px;
 }
 
 .clearfix:after {
@@ -247,6 +247,10 @@ td {
   color: red
 }
 
+.font-blue {
+  color: #0366d6;
+}
+
 .pointer-hand {
   cursor: pointer;
 }
@@ -255,7 +259,7 @@ td {
   width: 80%;
 }
 
-.inlineBlock{
+.inlineBlock {
   display: inline-block;
 }
 
